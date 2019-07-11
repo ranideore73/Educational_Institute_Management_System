@@ -1,0 +1,96 @@
+body.custom-background
+{
+   background-image: url("placeholder.jpg");
+   background-size:     100%;
+   background-repeat:   no-repeat;
+   background-position: center center fixed;
+   overflow-y: scroll;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+#home {
+        position: fixed;
+        left: 3%;
+	display: inline;
+	text-align: left;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px 5px;
+	background-color: #8B2323;
+	font-size: 16px;
+}
+
+#logout {
+        position: fixed;
+        right: 3%;
+	display: inline;
+	text-align: right;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px 5px;
+	background-color: #8B2323;
+		font-size: 16px;
+}
+
+#navbar {
+	position: fixed;
+	top:10px;
+	left:50%;
+}
+
+#header1
+{
+margin-top:50px;
+width:device-width;
+background-color:#000000;
+opacity:0.8;
+font-weight:bold;
+font-size: 40px;
+color:white;
+text-align:center;
+border-radius: 5px;
+padding-top:0.5px;
+line-height: 1px;
+padding-bottom:1px;
+}
+
+#transaction
+{
+position: relative;
+top:1.5%;
+left: 1.5%;
+}
+
+.list
+{
+  border-color: #515151;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  padding: 5px;
+  line-height: 30px;
+  width: 22%;
+  height: 30%;
+  font-size: 22px;
+  background-color:#515151;
+  text-align: left;
+  color: #EAEAEA;
+}
+
+
+p.quote{
+ position: relative;
+  top: -10px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: right;
+  font-size:28px;
+  color: #000000;
+}

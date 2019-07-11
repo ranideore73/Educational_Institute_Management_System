@@ -1,0 +1,68 @@
+body.custom-background
+{
+   background-image: url("placeholder.jpg");
+   background-size:     100%;
+   background-repeat:   no-repeat;
+   background-position: center center fixed;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+  }
+
+#header
+{
+width:device-width;
+height:40%;
+margin-top:30px;
+margin-bottom:10px;
+padding:20px;
+background-color:#000000;
+opacity:0.8;
+font-weight:bold;
+font-size: 50px;
+color:white;
+text-align:center;
+}
+
+#center
+{
+
+height: 40%;
+width: 100%;
+margin-top:10%;
+margin-left:15%;
+margin-right:15%;
+float: center;
+}
+
+ul{width: fit-content;}
+li{
+
+  display:inline;
+  list-style: none;
+  width: fit-content;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+
+.round_button
+{
+  float: center;
+  width: 180px;
+  height:180px;
+  border-radius:50%;
+  color: #FFFFFF;
+  font-weight:bold;
+  font-family: Helvetica;
+  font-size: 24px;
+
+  border-color: #C36241;
+  background:#C36241;
+  opacity: 0.6;
+}
+
+#A,#S,#F{color: #FFFFFF;opacity: 1.0;}
+
+
